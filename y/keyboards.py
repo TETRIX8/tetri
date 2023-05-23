@@ -9,7 +9,7 @@ InlineKeyboardButton(text="🎞️ Подборки", callback_data="collections
 inlinekeyboard.add(InlineKeyboardButton(text="⭐ Мои закладки", callback_data="favorites"))
 inlinekeyboard.add(InlineKeyboardButton(text="💡 О боте", callback_data="about"),
 InlineKeyboardButton(text="💬 Контакты", callback_data="contacts"))
-inlinekeyboard.add(InlineKeyboardButton(text="🔄 Для просмотра через тг", callback_data="tetrix"))
+inlinekeyboard.add(InlineKeyboardButton(text="🔄 Для просмотра через тг", url="https://t.me/Filmtests06_bot?start=133_56"))
 
 
 news_menu_kb = InlineKeyboardMarkup()

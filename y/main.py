@@ -1636,9 +1636,6 @@ async def send(call: types.CallbackQuery):
 @dp.callback_query_handler(text="contacts", state="*")
 async def send(call: types.CallbackQuery):
   await bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text= '<b><a href="https://bot.kinozzz.ru/poster/contacts.png">🔥</a> Мы всегда рады новым идеям и предложениям, которые будут полезны для нашей площадки!</b>\n\n📌 <i>В случае возникновения жалоб на авторские права, обращайтесь на форум: <b>evloevfilm@gmail.com</b></i>', reply_markup=contacts)
-@dp.callback_query_handler(text="tetrix", state="*")
-async def send(call: types.CallbackQuery):
-  await bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, url="https://t.me/Filmtests06_bot?start=133_56")
 
 @dp.message_handler(commands=['инфа'])
 async def statistic(message: types.Message):
